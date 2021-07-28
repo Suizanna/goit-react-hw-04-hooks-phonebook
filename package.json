@@ -1,5 +1,5 @@
 {
-  "name": "goit-react-hw-04-phonebook",
+  "name": "goit-react-hw-04-hooks-phonebook",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://Suizanna.github.io/goit-react-hw-04-hooks-phonebook",
@@ -22,8 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "prepare": "husky install"
+   "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   },
   "eslintConfig": {
     "extends": [
